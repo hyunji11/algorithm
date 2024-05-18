@@ -1,0 +1,18 @@
+#여러 값이 들어있는 리스트에서 최곳값을 출력하는 함수를 직접 구현하라 
+#이때, max() 함수를 사용해서는 안된다. 
+
+def max_in_list(lst):
+ #최초 초기 최곳값을 0으로 설정 
+ first_max_number = 0
+#반복문을 돌면서 전달된 리스트 내 요소 중 초기 최곳값보다 큰 값이 있으면 초기 최곳값으로 바꾼다
+for in list:
+ if i> first_max_number:
+       first_max_number = i
+
+#최종 first_max_number  값을 리턴
+return first_max_number 
+
+enlish_Score + [33, 44, 55, 66, 77, 88, 99, 11, 22, 60]
+
+result = max_in_list(english_score)
+print(result)
